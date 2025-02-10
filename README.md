@@ -2,7 +2,7 @@
 
 ## Setting up your environment
 
-Before you being, make sure that you have pyenv installed. If you don't have it installed check it out [here]{https://github.com/pyenv/pyenv?tab=readme-ov-file#installation}. 
+Before you begin, make sure that you have pyenv installed. If you don't have it installed check it out [here]{https://github.com/pyenv/pyenv?tab=readme-ov-file#installation}. 
 
 Before you begin setting up this project's environment, we will first need to install the correct version of python. We will be using python version 3.10.12. You install this with `pyenv install 3.10.12`.
 
