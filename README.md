@@ -2,19 +2,18 @@
 
 ## Setting up your environment
 
-Before you begin, make sure that you have pyenv installed. If you don't have it installed check it out [here](https://github.com/pyenv/pyenv?tab=readme-ov-file#installation). 
+Before you being, make sure that you have pipx and Poetry installed:
 
-Before you begin setting up this project's environment, we will first need to install the correct version of python. We will be using python version 3.10.12. You install this with `pyenv install 3.10.12`.
+Instructions to install pipx: https://pipx.pypa.io/stable/installation/
 
-Once you have pyenv installed, clone this repo to your machine w/ `git clone`
+Instructions to install Poetry: https://python-poetry.org/docs/
 
-Initialize a virtual environment. You can name it whatever (ex: vipenv): `pyenv virtualenv 3.10.12 vipenv`
+Once you have Poetry installed, clone this repo to your machine w/ `git clone`
 
-Activate your environment: `pyenv activate vipenv`
+Activate your environment: `poetry shell`
 
-Once you have activated your environment, install the necessary requirements (which can be found in requirements.txt):
-`pip install -r /path/to/requirements.txt`
-Your `requirements.txt` file will be found in the main directory for this project. 
+Once you have activated your environment, install the necessary requirements:
+`poetry install --no-root` 
 
 Once you have done all these steps, you are done setting up your environment
 
