@@ -17,4 +17,10 @@ Once you have activated your environment, install the necessary requirements:
 
 Once you have done all these steps, you are done setting up your environment
 
+## Updating your environment
+
+Once you pull from main, you will see that there have been new dependencies added to your pyproject.toml. 
+
+Activate your environment and then run `poetry install`. Then run `poetry lock`. This should install all the new dependencies.
+
 ## Project Structure:
