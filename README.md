@@ -23,4 +23,8 @@ Once you pull from main, you will see that there have been new dependencies adde
 
 Activate your environment and then run `poetry install`. Then run `poetry lock`. This should install all the new dependencies.
 
+## Adding dependencies
+
+Due to the nature of this project, you will likely test and add many new dependencies. In order to make sure that *everyone* has the correct dependencies installed, make sure to push only the updates you make to the `pyproject.toml` file to the `virtualenv` branch and then make a pull request. Do not push any code that you write to the virtualenv branch. It **will** be discarded.
+
 ## Project Structure:
