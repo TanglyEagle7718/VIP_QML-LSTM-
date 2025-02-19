@@ -12,6 +12,8 @@ Once you have Poetry installed, clone this repo to your machine w/ `git clone`
 
 Activate your environment: `poetry shell`
 
+If `poetry shell` does not work, then checkout this solution: https://github.com/python-poetry/poetry-plugin-shell
+
 Once you have activated your environment, install the necessary requirements:
 `poetry install --no-root` 
 
